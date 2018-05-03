@@ -1,0 +1,147 @@
+.main-content {
+    padding: 0px !important;
+    min-height: 100% !important;
+    display: flex;
+    align-items: stretch;
+  }
+
+  .section-left {
+    background: #f5f5f5;
+    height: inherit;
+    padding: 50px 25px !important;
+  }
+
+  .section-left .menu-item {
+    margin-bottom:35px !important;
+    cursor: pointer;
+    margin:1px 10px;
+  }
+
+  .section-left .menu-item a {
+    color: #353535;
+    letter-spacing: 1px;
+    font-size: 18.5px;
+    text-decoration: none;
+  }
+
+  .section-left .menu-item:hover a{
+    padding-left:20px;
+    border-left:3px solid #38524b;
+    color: #37514a;
+  }
+
+  .section-left .menu-item .active{
+    padding-left:20px;
+    border-left:3px solid #38524b;
+    color: #37514a;
+    font-weight: 600;
+  }
+
+  .section-left .menu-item span {
+      color: #536963;
+      font-size: 19px;
+  }
+
+  .section-right {
+    background: #fbfbfb;
+    padding-top: 55px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-right form {
+    margin:10px 45px;
+  }
+
+  .section-right form .button {
+    text-align: center;
+    }
+    
+    .section-right form .button button {
+        background: #377262;
+        color: #fcfcfc;
+        text-transform: uppercase;
+        padding: 8px 75px;
+        font-size: 16px;
+    }
+
+    .section-right .comment {
+      bottom:0;
+      right:0;
+      left:0;
+      position: absolute;
+      color: #818181;
+      text-align: center !important;
+      margin-bottom: 65px;
+      font-family: SourceSansPro-Light;
+      letter-spacing: 0.5px;
+    }
+
+    .section-right .img-rounded {
+      border-radius:1000px;
+      width: 150px;
+      height:150px;
+      background: transparent;
+      padding:1px 1px;
+    }
+
+    .section-right .social-accounts {
+      border-top:1px solid #e9e9f0;
+      padding-top: 50px;
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+
+    .section-right .social-accounts span {
+      margin:0px 19px;
+      font-size: 25px;
+      color: #5b5b5b;
+    }
+
+    .section-right .user-bio {
+      margin-top: 30px;
+    }
+
+    .section-right .user-bio .user-name {
+      font-weight: 600;
+      font-size: 23px;
+      color: #2b2b2b;
+    }
+
+    .section-right .user-bio .user-program {
+      font-size:18px;
+      color: #535353;
+    }
+
+    .section-right .title {
+      font-size: 20px;
+      margin-bottom:35px;
+      font-stretch: narrower;
+      color: #3d5750;
+    }
+
+    .section-right .title:after {
+      content: ""; /* This is necessary for the pseudo element to work. */
+      display: block; /* This will put the pseudo element on its own line. */
+      margin: 0 auto; /* This will center the border. */
+      width: 6%; /* Change this to whatever width you want. */
+      padding-top: 10px; /* This creates some space between the element and the border. */
+      border-bottom: 3.5px solid #377262; /* This creates the border. Replace black with whatever color you want. */
+    }
+
+    .section-right .notification-panel {
+      margin:45px 0px;
+    }
+    
+    .section-right .notification-panel label {
+      position: relative;
+      text-align: left;
+      width: 100%;
+      top:0;
+      bottom: 0;
+      margin-bottom: 15px;
+      color: #434343;
+      font-size: 17px;
+      font-family: SourceSansPro-Light;
+    }
